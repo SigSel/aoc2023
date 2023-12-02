@@ -10,7 +10,8 @@ fn main() {
     match file_reader::read_file_lines(file_path){
         Ok(lines) => {
             let day_one = DayOne;
-            day_one.solve_puzzle_one(&lines)
+            day_one.solve_puzzle_one(&lines);
+            day_one.solve_puzzle_two(&lines);
             // Do further processing with the array of strings
         }
         Err(e) => println!("Error reading file: {}", e),
