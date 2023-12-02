@@ -1,4 +1,4 @@
-use crate::day_interface::DayInterface;
+use crate::days::day_interface::DayInterface;
 
 pub struct DayTwo;
 

@@ -1,5 +1,5 @@
 
-use crate::day_interface::DayInterface;
+use crate::days::day_interface::DayInterface;
 use regex::Regex;
 
 pub struct DayOne;
