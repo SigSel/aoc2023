@@ -7,7 +7,7 @@ use crate::utils::file_reader;
 use crate::days::day_fetch::fetch_day;
 
 fn main() {
-    let day_to_run = "2";
+    let day_to_run = "4";
     let file_path = format!("input/day{}.txt", day_to_run);
     match fetch_day(day_to_run){
         Ok(day) => {
